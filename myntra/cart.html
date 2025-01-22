@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Myntra Clone</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/KG-Coding-with-Prashant-Sir/JavaScript_Complete_YouTube/main/11%20Template%20Myntra%20Functional%20Clone/images/myntra_logo.webp">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="../index.html"><img class="myntra_home" src="https://raw.githubusercontent.com/KG-Coding-with-Prashant-Sir/JavaScript_Complete_YouTube/main/11%20Template%20Myntra%20Functional%20Clone/images/myntra_logo.webp" alt="Myntra Home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio <sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+                <span class="bag_count">0</span>
+            </div>
+        </div>
+    </header>
+    <main>
+      <div class="cart-page">
+        <div class="cart-items-container">
+            
+        </div>
+        <div class="cart-summary">
+            
+        </div>
+
+      </div>
+      <div class="custom-alert-container">
+        <div class="custom-alert">
+          <div class="custom-alert-header">
+            <h3>Order Successful!</h3>
+          </div>
+          <div class="custom-alert-body">
+            <p>Your order has been placed successfully.</p>
+            <p>Thank you for shopping with us!</p>
+          </div>
+          <div class="custom-alert-footer">
+            <button class="custom-alert-close-btn" onclick="closeCustomAlert()">Close</button>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            © 2023 www.myntra.com. All rights reserved.
+        </div>
+    </footer>
+    <script src="javascript/products.js"></script>
+    <script src="javascript/index.js"></script>
+    <script src="javascript/cart.js"></script>
+</body>
+</html>
+<!-- cart items container -->
+<!-- <div class="cart-item-container" key=${item.id}>
+    <div class="item-left-part">
+    <img class="cart-item-img" src="${item.image}" alt="imagee" />
+    </div>
+    <div class="item-right-part">
+    <div class="company">${item.companyName}</div>
+    <div class="item-name">${item.itemName}</div>
+    <div class="price-container">
+    <span class="curr_price">₹ ${item.currentPrice}</span>
+        <span class="orig_price">₹ ${item.originalPrice}</span>
+        <span class="discount">(${item.discount}% OFF)</span>
+      </div>
+      <div class="return-period">
+        <span class="return-period-days">${item.return_period} days</span> return available
+        </div>
+        <div class="delivery-details">
+        Delivery by
+        <span class="delivery-details-days">${item.delivery_date}</span>
+        </div>
+        </div>
+        
+        <div class="remove-from-cart" onclick="removefromCart(${item.id})">x</div>
+        </div> -->
